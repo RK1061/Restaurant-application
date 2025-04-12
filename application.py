@@ -1,4 +1,5 @@
 from Resturant import rest
+import sys
 
 def main_menu():
     print("Welcome to Marathi Tadaka Restaurant")
@@ -36,6 +37,7 @@ while True:
 
     elif choice == 6:
         print("Thank you for visiting Marathi Tadaka! Come again!")
+        sys.exit()
         
 
     else:
